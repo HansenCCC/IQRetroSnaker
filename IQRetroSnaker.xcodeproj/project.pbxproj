@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306083171E0A21E900E9CF5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 306083161E0A21E900E9CF5F /* main.m */; };
+		3060831A1E0A21E900E9CF5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 306083191E0A21E900E9CF5F /* AppDelegate.m */; };
+		3060831D1E0A21E900E9CF5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3060831C1E0A21E900E9CF5F /* ViewController.m */; };
+		306083201E0A21E900E9CF5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3060831E1E0A21E900E9CF5F /* Main.storyboard */; };
+		306083221E0A21E900E9CF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306083211E0A21E900E9CF5F /* Assets.xcassets */; };
+		306083251E0A21E900E9CF5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306083231E0A21E900E9CF5F /* LaunchScreen.storyboard */; };
+		306083351E0A221300E9CF5F /* IQGestureController_base.m in Sources */ = {isa = PBXBuildFile; fileRef = 3060832E1E0A221300E9CF5F /* IQGestureController_base.m */; };
+		306083361E0A221300E9CF5F /* IQRetroSnakerState.m in Sources */ = {isa = PBXBuildFile; fileRef = 306083301E0A221300E9CF5F /* IQRetroSnakerState.m */; };
+		306083371E0A221300E9CF5F /* IQSnakerView_base.m in Sources */ = {isa = PBXBuildFile; fileRef = 306083321E0A221300E9CF5F /* IQSnakerView_base.m */; };
+		306083381E0A221300E9CF5F /* IQTraditionSnakerGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306083341E0A221300E9CF5F /* IQTraditionSnakerGameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		306083121E0A21E900E9CF5F /* IQRetroSnaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQRetroSnaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306083161E0A21E900E9CF5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		306083181E0A21E900E9CF5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		306083191E0A21E900E9CF5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3060831B1E0A21E900E9CF5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		3060831C1E0A21E900E9CF5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3060831F1E0A21E900E9CF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		306083211E0A21E900E9CF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306083241E0A21E900E9CF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		306083261E0A21E900E9CF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3060832D1E0A221300E9CF5F /* IQGestureController_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IQGestureController_base.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		3060832E1E0A221300E9CF5F /* IQGestureController_base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IQGestureController_base.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3060832F1E0A221300E9CF5F /* IQRetroSnakerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IQRetroSnakerState.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		306083301E0A221300E9CF5F /* IQRetroSnakerState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IQRetroSnakerState.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		306083311E0A221300E9CF5F /* IQSnakerView_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IQSnakerView_base.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		306083321E0A221300E9CF5F /* IQSnakerView_base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IQSnakerView_base.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		306083331E0A221300E9CF5F /* IQTraditionSnakerGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IQTraditionSnakerGameViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		306083341E0A221300E9CF5F /* IQTraditionSnakerGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IQTraditionSnakerGameViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		306083391E0A228E00E9CF5F /* IQRetroSnaker.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IQRetroSnaker.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3060830F1E0A21E900E9CF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306083091E0A21E900E9CF5F = {
+			isa = PBXGroup;
+			children = (
+				306083141E0A21E900E9CF5F /* IQRetroSnaker */,
+				306083131E0A21E900E9CF5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		306083131E0A21E900E9CF5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306083121E0A21E900E9CF5F /* IQRetroSnaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306083141E0A21E900E9CF5F /* IQRetroSnaker */ = {
+			isa = PBXGroup;
+			children = (
+				306083181E0A21E900E9CF5F /* AppDelegate.h */,
+				306083191E0A21E900E9CF5F /* AppDelegate.m */,
+				3060831B1E0A21E900E9CF5F /* ViewController.h */,
+				3060831C1E0A21E900E9CF5F /* ViewController.m */,
+				3060832C1E0A221300E9CF5F /* libs */,
+				306083151E0A21E900E9CF5F /* Supporting Files */,
+			);
+			path = IQRetroSnaker;
+			sourceTree = "<group>";
+		};
+		306083151E0A21E900E9CF5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				306083391E0A228E00E9CF5F /* IQRetroSnaker.pch */,
+				3060831E1E0A21E900E9CF5F /* Main.storyboard */,
+				306083211E0A21E900E9CF5F /* Assets.xcassets */,
+				306083231E0A21E900E9CF5F /* LaunchScreen.storyboard */,
+				306083261E0A21E900E9CF5F /* Info.plist */,
+				306083161E0A21E900E9CF5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3060832C1E0A221300E9CF5F /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				3060833A1E0A22D600E9CF5F /* model */,
+				3060833B1E0A22F600E9CF5F /* view */,
+				3060832D1E0A221300E9CF5F /* IQGestureController_base.h */,
+				3060832E1E0A221300E9CF5F /* IQGestureController_base.m */,
+				306083331E0A221300E9CF5F /* IQTraditionSnakerGameViewController.h */,
+				306083341E0A221300E9CF5F /* IQTraditionSnakerGameViewController.m */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		3060833A1E0A22D600E9CF5F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3060832F1E0A221300E9CF5F /* IQRetroSnakerState.h */,
+				306083301E0A221300E9CF5F /* IQRetroSnakerState.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		3060833B1E0A22F600E9CF5F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				306083311E0A221300E9CF5F /* IQSnakerView_base.h */,
+				306083321E0A221300E9CF5F /* IQSnakerView_base.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306083111E0A21E900E9CF5F /* IQRetroSnaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306083291E0A21E900E9CF5F /* Build configuration list for PBXNativeTarget "IQRetroSnaker" */;
+			buildPhases = (
+				3060830E1E0A21E900E9CF5F /* Sources */,
+				3060830F1E0A21E900E9CF5F /* Frameworks */,
+				306083101E0A21E900E9CF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQRetroSnaker;
+			productName = IQRetroSnaker;
+			productReference = 306083121E0A21E900E9CF5F /* IQRetroSnaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3060830A1E0A21E900E9CF5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "力王";
+				TargetAttributes = {
+					306083111E0A21E900E9CF5F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3B3Z5L9KTV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3060830D1E0A21E900E9CF5F /* Build configuration list for PBXProject "IQRetroSnaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 306083091E0A21E900E9CF5F;
+			productRefGroup = 306083131E0A21E900E9CF5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306083111E0A21E900E9CF5F /* IQRetroSnaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306083101E0A21E900E9CF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306083251E0A21E900E9CF5F /* LaunchScreen.storyboard in Resources */,
+				306083221E0A21E900E9CF5F /* Assets.xcassets in Resources */,
+				306083201E0A21E900E9CF5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3060830E1E0A21E900E9CF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306083351E0A221300E9CF5F /* IQGestureController_base.m in Sources */,
+				3060831D1E0A21E900E9CF5F /* ViewController.m in Sources */,
+				306083361E0A221300E9CF5F /* IQRetroSnakerState.m in Sources */,
+				3060831A1E0A21E900E9CF5F /* AppDelegate.m in Sources */,
+				306083171E0A21E900E9CF5F /* main.m in Sources */,
+				306083381E0A221300E9CF5F /* IQTraditionSnakerGameViewController.m in Sources */,
+				306083371E0A221300E9CF5F /* IQSnakerView_base.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3060831E1E0A21E900E9CF5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3060831F1E0A21E900E9CF5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		306083231E0A21E900E9CF5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306083241E0A21E900E9CF5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		306083271E0A21E900E9CF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		306083281E0A21E900E9CF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3060832A1E0A21E900E9CF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3B3Z5L9KTV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IQRetroSnaker/IQRetroSnaker.pch";
+				INFOPLIST_FILE = IQRetroSnaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HeimaVista.IQRetroSnaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3060832B1E0A21E900E9CF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3B3Z5L9KTV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IQRetroSnaker/IQRetroSnaker.pch";
+				INFOPLIST_FILE = IQRetroSnaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HeimaVista.IQRetroSnaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3060830D1E0A21E900E9CF5F /* Build configuration list for PBXProject "IQRetroSnaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306083271E0A21E900E9CF5F /* Debug */,
+				306083281E0A21E900E9CF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306083291E0A21E900E9CF5F /* Build configuration list for PBXNativeTarget "IQRetroSnaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3060832A1E0A21E900E9CF5F /* Debug */,
+				3060832B1E0A21E900E9CF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3060830A1E0A21E900E9CF5F /* Project object */;
+}
